@@ -1,0 +1,21 @@
+{
+    "name": "raditzfarhan/yii2-sanitizer",
+    "description": "Yii2 Sanitizer is an easy way to sanitize or filter your inputs.",
+    "type": "yii2-extension",
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "farhan",
+            "email": "raditzfarhan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "raditzfarhan\\Yii2Sanitizer\\": "src"
+        }
+    }
+}
