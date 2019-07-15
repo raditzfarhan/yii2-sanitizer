@@ -1,5 +1,10 @@
 Change Log: yii2-sanitizer
 ========================
+## Version 1.0.1
+
+**Date**: 15-Jul-2019
+
+Update license to MIT
 
 ## Version 1.0.0
 
