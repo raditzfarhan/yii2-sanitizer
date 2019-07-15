@@ -1,5 +1,5 @@
 # Yii2 Sanitizer
-Yii2 Sanitizer is an easy way to sanitize or filter your inputs.
+Yii2 Sanitizer is an easy way to sanitize or filter your inputs for application that uses [Yii2 framework](https://www.yiiframework.com/).
 
 ## Installation
 
@@ -96,11 +96,11 @@ Here are the filters that you can use:
 :---------|:----------
 **cast** | Cast given value into given type. Options are int, float, string.
 **digit** | Will removes non-digit from given value.
-**encode**| Escaping unwanted tags and only output plain HTML using Yii's HTML:encode() function. 
+**encode**| Escaping unwanted tags and only output plain HTML using Yii2 HTML:encode() function. 
 **escape** | Quote string with slashes using filter_var (FILTER_SANITIZE_MAGIC_QUOTES) function.
 **float** | Removes unwanted characters and remain a float number only. Similar to cast:float.
 **int** | Removes unwanted characters and remain a integer number only. Similar to case:int.
-**purify** | Purify HTML content using Yii's HtmlPurifier::process() function. Note that HtmlPurifier processing is quite heavy so use with caution.
+**purify** | Purify HTML content using Yii2 HtmlPurifier::process() function. Note that HtmlPurifier processing is quite heavy so use with caution.
 **strip_tags** | Removes HTML tags from given string value.
 **trim** | Trims a string and remove white spaces.
 
