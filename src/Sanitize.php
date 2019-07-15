@@ -8,15 +8,15 @@ use yii\web\HttpException;
 class Sanitize extends Component
 {
     protected $filters = [
-        'strip_tags' => \raditzfarhan\Yii2Sanitizer\Filters\StripTagsFilter::class,
+        'cast' => \raditzfarhan\Yii2Sanitizer\Filters\CastFilter::class,
         'digit' => \raditzfarhan\Yii2Sanitizer\Filters\DigitFilter::class,
         'encode' => \raditzfarhan\Yii2Sanitizer\Filters\EncodeFilter::class,
-        'purify' => \raditzfarhan\Yii2Sanitizer\Filters\PurifyFilter::class,
-        'trim' => \raditzfarhan\Yii2Sanitizer\Filters\TrimFilter::class,
         'escape' => \raditzfarhan\Yii2Sanitizer\Filters\EscapeFilter::class,
-        'int' => \raditzfarhan\Yii2Sanitizer\Filters\IntFilter::class,
         'float' => \raditzfarhan\Yii2Sanitizer\Filters\FloatFilter::class,
-        'cast' => \raditzfarhan\Yii2Sanitizer\Filters\CastFilter::class,
+        'int' => \raditzfarhan\Yii2Sanitizer\Filters\IntFilter::class,
+        'purify' => \raditzfarhan\Yii2Sanitizer\Filters\PurifyFilter::class,
+        'strip_tags' => \raditzfarhan\Yii2Sanitizer\Filters\StripTagsFilter::class,
+        'trim' => \raditzfarhan\Yii2Sanitizer\Filters\TrimFilter::class,   
     ];
 
     public function __construct($config = [])
